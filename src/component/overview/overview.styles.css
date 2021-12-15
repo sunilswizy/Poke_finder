@@ -1,0 +1,41 @@
+.Overview-container {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.3);
+  transition: 1s;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+.Overview-container:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.3);
+}
+.Overview-img {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Overview-img img {
+  width: 60%;
+}
+
+.Overview-head {
+  color: #e91e63;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 5%;
+  height: 10%;
+}
+
+.Overview-span {
+  color: #4caf50;
+  text-align: center;
+  display: flex;
+  height: 10%;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 4px;
+}
